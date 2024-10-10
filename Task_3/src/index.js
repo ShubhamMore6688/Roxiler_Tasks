@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 app.use(cors())
 // Connect to MongoDB
-await mongoose.connect('mongodb+srv://admin:8ZU3VNDfBezKJiVP@crud.xuh8kmc.mongodb.net/productdb', {
+await mongoose.connect('mongodb+srv://nodejsboy:nodejsboy@cluster0.rlojvly.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/productdb', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
