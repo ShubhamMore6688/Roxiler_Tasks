@@ -1,0 +1,46 @@
+/* Statistics.css */
+
+/* Statistics Box */
+.statistics-container {
+    background-color: #ffffff; /* White background for statistics */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside statistics container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin: 20px 0; /* Space above and below */
+  }
+  
+  /* Statistics Header */
+  .statistics-box {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-around; /* Space items evenly */
+    margin-top: 20px; /* Space above the statistics items */
+  }
+  
+  /* Statistic Item */
+  .statistic-item {
+    background-color: #007bff; /* Blue background for items */
+    color: white; /* White text */
+    border-radius: 6px; /* Rounded corners */
+    padding: 20px; /* Padding inside each statistic */
+    width: 30%; /* Fixed width for statistic items */
+    text-align: center; /* Center text */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  }
+  
+  /* Hover Effect for Statistic Items */
+  .statistic-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+  }
+  
+  /* Statistic Item Header */
+  .statistic-item h3 {
+    margin: 0 0 10px; /* Margin below header */
+  }
+  
+  /* Statistic Item Content */
+  .statistic-item p {
+    font-size: 24px; /* Font size for content */
+    margin: 0; /* No margin */
+  }
+  

@@ -1,0 +1,40 @@
+/* App.css */
+
+/* General App Styles */
+.App {
+  font-family: Arial, sans-serif; /* Font for the entire app */
+  max-width: 1200px; /* Limit the width of the app */
+  margin-left: auto; /* Center the app */
+  margin-right: auto;
+  padding: 20px; /* Padding around the app */
+  background-color: #f4f4f4; /* Light background color */
+  border-radius: 8px; /* Rounded corners for the app container */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  margin-top: 100px;
+}
+
+/* Header Styles */
+h1 {
+  text-align: center; /* Center the title */
+  color: #333; /* Dark color for the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+/* Controls Styles */
+.controls {
+  text-align: center; /* Center controls */
+  margin-bottom: 20px; /* Space below controls */
+}
+
+select {
+  padding: 10px; /* Padding inside the dropdown */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light border */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Statistics Container */
+.statistics-container {
+  margin-top: 20px; /* Space above statistics */
+}
