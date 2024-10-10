@@ -29,7 +29,8 @@ To get started with Roxiler Tasks, follow these steps:
 2. **Navigate to the project directory:**
 
    ```
-   cd Roxiler-_Tasks
+   cd Roxiler_Tasks
+
    ```
 
 3. **Install dependencies:**
