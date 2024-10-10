@@ -23,7 +23,7 @@ To get started with Roxiler Tasks, follow these steps:
 1. **Clone the repository:**
 
    ```
-   git clone https://github.com/abhishekbhonde/Roxiler-_Tasks.git
+   git clone https://github.com/ShubhamMore6688/Roxiler_Tasks.git
    ```
 
 2. **Navigate to the project directory:**
@@ -55,8 +55,8 @@ npm start
 
 For any questions or feedback, feel free to reach out to me at 
 ```
-abhishekbhonde31@gmail.com
-9284324926
+shubhamdmore6688@gmail.com 
+7249802758
 ```
 ---
 
