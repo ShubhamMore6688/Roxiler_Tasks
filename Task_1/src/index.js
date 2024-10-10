@@ -6,9 +6,10 @@ const axios = require('axios');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const DBURL = process.env.DBURL;
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://nodejsboy:nodejsboy@cluster0.rlojvly.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect(`${DBURL}`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
